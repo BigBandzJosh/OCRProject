@@ -5,8 +5,8 @@ project(TesseractApp)
 set(CMAKE_CXX_STANDARD 14)
 # Find required packages
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(Tesseract tesseract)
-pkg_check_modules(LEPT lept)
+pkg_check_modules(Tesseract REQUIRED tesseract)
+pkg_check_modules(LEPT REQUIRED lept)
 
 # Add include directories
 include_directories(
@@ -20,6 +20,8 @@ include_directories(
 add_executable(Tesseract
         main.cpp
 )
+
+link_directories(/opt/homebrew/opt/tesseract/lib/ /opt/homebrew/opt/leptonica/lib/)
 
 # Link the libraries to your executable
 target_link_libraries(Tesseract

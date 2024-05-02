@@ -4,9 +4,9 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/Cellar/tesseract/5.3.4_1/include -I/opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica -I/opt/homebrew/opt/tesseract/include -I/opt/homebrew/opt/leptonica/include
+CXX_INCLUDES = -I/opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica
 
-CXX_FLAGSarm64 = -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+CXX_FLAGSarm64 = -I/opt/homebrew/opt/tesseract/include -I/opt/homebrew/opt/leptonica/include -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
 
-CXX_FLAGS = -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+CXX_FLAGS = -I/opt/homebrew/opt/tesseract/include -I/opt/homebrew/opt/leptonica/include -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
 

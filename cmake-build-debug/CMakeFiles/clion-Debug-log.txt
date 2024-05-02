@@ -1,8 +1,14 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/bigbandzjosh/CLionProjects/TesseractApp -B /Users/bigbandzjosh/CLionProjects/TesseractApp/cmake-build-debug
 -- Checking for module 'tesseract'
 --   No package 'tesseract' found
--- Checking for module 'lept'
---   No package 'lept' found
--- Configuring done (0.4s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/bigbandzjosh/CLionProjects/TesseractApp/cmake-build-debug
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPkgConfig.cmake:619 (message):
+  The following required packages were not found:
+
+   - tesseract
+
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPkgConfig.cmake:841 (_pkg_check_modules_internal)
+  CMakeLists.txt:8 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!

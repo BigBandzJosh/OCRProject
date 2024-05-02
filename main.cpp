@@ -15,10 +15,10 @@ int main(int argc, char** argv)
     // Create a Tesseract instance
     tesseract::TessBaseAPI api;
 
-    // Initialize tesseract-ocr with English, without specifying tessdata path
-    if (api.Init(nullptr, "eng")) {
+    // Initialize tesseract-ocr with English, without specifying tessdata path using the LSTM OCR engine mode
+    if (api.Init(nullptr, "eng", tesseract::OEM_LSTM_ONLY) != 0) {
         fprintf(stderr, "Could not initialize tesseract.\n");
-        exit(1);
+        return -1;
     }
 
     // Process the input files

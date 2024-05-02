@@ -31,7 +31,7 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=
+CMAKE_CXX_FLAGS:STRING=-I/opt/homebrew/opt/tesseract/include -I/opt/homebrew/opt/leptonica/include
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -67,7 +67,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=
+CMAKE_EXE_LINKER_FLAGS:STRING=-L/opt/homebrew/opt/tesseract/lib -L/opt/homebrew/opt/leptonica/lib
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -101,7 +101,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=
+CMAKE_MODULE_LINKER_FLAGS:STRING=-L/opt/homebrew/opt/tesseract/lib -L/opt/homebrew/opt/leptonica/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -156,7 +156,7 @@ CMAKE_READELF:FILEPATH=CMAKE_READELF-NOTFOUND
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=
+CMAKE_SHARED_LINKER_FLAGS:STRING=-L/opt/homebrew/opt/tesseract/lib -L/opt/homebrew/opt/leptonica/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -460,8 +460,8 @@ Tesseract_tesseract_INCLUDEDIR:INTERNAL=
 Tesseract_tesseract_LIBDIR:INTERNAL=
 Tesseract_tesseract_PREFIX:INTERNAL=
 Tesseract_tesseract_VERSION:INTERNAL=
-__pkg_config_arguments_LEPT:INTERNAL=lept
-__pkg_config_arguments_Tesseract:INTERNAL=tesseract
+__pkg_config_arguments_LEPT:INTERNAL=REQUIRED;lept
+__pkg_config_arguments_Tesseract:INTERNAL=REQUIRED;tesseract
 __pkg_config_checked_LEPT:INTERNAL=1
 __pkg_config_checked_Tesseract:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_LEPT_leptonica
@@ -472,5 +472,5 @@ pkgcfg_lib_Tesseract_archive-ADVANCED:INTERNAL=1
 pkgcfg_lib_Tesseract_curl-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_Tesseract_tesseract
 pkgcfg_lib_Tesseract_tesseract-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/opt/homebrew/Cellar/tesseract/5.3.4_1/lib
+prefix_result:INTERNAL=/opt/homebrew/Cellar/leptonica/1.84.1/lib
 

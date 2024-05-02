@@ -1,12 +1,12 @@
 CMakeFiles/Tesseract.dir/main.cpp.o: \
   /Users/bigbandzjosh/CLionProjects/TesseractApp/main.cpp \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/baseapi.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/export.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/pageiterator.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/publictypes.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/resultiterator.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/ltrresultiterator.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/unichar.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/baseapi.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/export.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/pageiterator.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/publictypes.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/resultiterator.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/ltrresultiterator.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/unichar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/memory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -881,7 +881,7 @@ CMakeFiles/Tesseract.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/version.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/version.h \
   /opt/homebrew/opt/leptonica/include/leptonica/allheaders.h \
   /opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica/alltypes.h \
   /opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica/endianness.h \
@@ -910,7 +910,7 @@ CMakeFiles/Tesseract.dir/main.cpp.o: \
   /opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica/stringcode.h \
   /opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica/sudoku.h \
   /opt/homebrew/Cellar/leptonica/1.84.1/include/leptonica/watershed.h \
-  /opt/homebrew/Cellar/tesseract/5.3.4_1/include/tesseract/renderer.h \
+  /opt/homebrew/opt/tesseract/include/tesseract/renderer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
